@@ -1,0 +1,181 @@
+/* ====================
+   Base Reset & Defaults
+   ==================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #0f0f0f;
+  color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* ====================
+   Typography
+   ==================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #daff01;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ====================
+   Layout & Containers
+   ==================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+/* ====================
+   Flexbox & Grid
+   ==================== */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* ====================
+   Spacing
+   ==================== */
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+
+/* ====================
+   Buttons
+   ==================== */
+.button {
+  display: inline-block;
+  background-color: #daff01;
+  color: #0f0f0f;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #c6e001;
+}
+
+/* ====================
+   Forms
+   ==================== */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.25rem;
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #daff01;
+  outline: none;
+}
+
+/* ====================
+   Pseudo-Classes & Pseudo-Elements
+   ==================== */
+ul li:first-child {
+  font-weight: bold;
+}
+ul li:last-child {
+  color: #aaa;
+}
+.button::after {
+  content: " →";
+  transition: transform 0.3s ease;
+}
+.button:hover::after {
+  transform: translateX(5px);
+}
+
+/* ====================
+   Animations & Transitions
+   ==================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+/* ====================
+   Media Queries
+   ==================== */
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}

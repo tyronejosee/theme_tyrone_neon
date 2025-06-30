@@ -1,0 +1,55 @@
+{
+  "name": "tyrone-neon",
+  "displayName": "Tyrone Neon",
+  "description": "A high-contrast dark theme with vibrant DAFF01 accents and a neon glow",
+  "version": "1.0.0",
+  "publisher": "tyronejosee",
+  "author": {
+    "name": "Tyrone José",
+    "email": "alt.tyronejose@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cosmic",
+    "purple",
+    "blue",
+    "space"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tyrone Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tyrone-neon-dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyronejosee/theme_tyrone_neon"
+  },
+  "bugs": {
+    "url": "https://github.com/tyronejosee/theme_tyrone_neon/issues"
+  },
+  "homepage": "https://github.com/tyronejosee/theme_tyrone_neon#readme",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0d1117",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}

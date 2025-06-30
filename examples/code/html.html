@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vehicle Overview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="main-header" class="header">
+      <h1 class="site-title">Vehicle Management System</h1>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a href="#overview" class="nav-link">Overview</a></li>
+          <li><a href="#specs" class="nav-link">Specifications</a></li>
+          <li><a href="#maintenance" class="nav-link">Maintenance</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content" class="main-content">
+      <section id="overview" class="section">
+        <h2 class="section-title">Car Overview</h2>
+        <div class="car-card">
+          <h3 class="car-name">2022 Toyota Corolla</h3>
+          <p class="car-description">
+            < The Toyota Corolla is a compact sedan known for its reliability,
+            fuel efficiency, and affordability.
+          </p>
+          <img
+            src="images/corolla.jpg"
+            alt="Toyota Corolla"
+            class="car-image"
+          />
+        </div>
+      </section>
+
+      <section id="specs" class="section">
+        <h2 class="section-title">Specifications</h2>
+        <ul class="spec-list">
+          <li class="spec-item"><span class="label">Make:</span> Toyota</li>
+          <li class="spec-item"><span class="label">Model:</span> Corolla</li>
+          <li class="spec-item"><span class="label">Year:</span> 2022</li>
+          <li class="spec-item"><span class="label">Engine:</span> 1.8L I4</li>
+          <li class="spec-item">
+            <span class="label">Transmission:</span> CVT
+          </li>
+          <li class="spec-item">
+            <span class="label">Fuel Type:</span> Gasoline
+          </li>
+        </ul>
+      </section>
+
+      <section id="maintenance" class="section">
+        <h2 class="section-title">Maintenance Log</h2>
+        <table class="maintenance-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Service</th>
+              <th>Mileage</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023-01-10</td>
+              <td>Oil Change</td>
+              <td>5,000 miles</td>
+              <td>Regular maintenance</td>
+            </tr>
+            <tr>
+              <td>2023-06-12</td>
+              <td>Tire Rotation</td>
+              <td>10,000 miles</td>
+              <td>Front to back</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <p class="footer-text">
+        © 2025 Vehicle Management Inc. All rights reserved.
+      </p>
+      <p class="footer-text">
+        Contact:
+        <a href="mailto:support@vehiclemgmt.com">support@vehiclemgmt.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
