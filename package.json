@@ -1,7 +1,7 @@
 {
   "name": "tyrone-neon",
   "displayName": "Tyrone Neon",
-  "description": "A high-contrast dark theme with vibrant DAFF01 accents and a neon glow",
+  "description": "Dark high-contrast theme with neon colors and a minimalist design. Focused on readability and modern aesthetics.",
   "version": "1.0.0",
   "publisher": "tyronejosee",
   "author": {
@@ -25,9 +25,74 @@
   "contributes": {
     "themes": [
       {
-        "label": "Tyrone Neon",
+        "label": "Tyrone Neon - 24K Gold",
         "uiTheme": "vs-dark",
-        "path": "./themes/tyrone-neon-dark-color-theme.json"
+        "path": "./themes/24k-gold-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Aqua",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aqua-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Azure",
+        "uiTheme": "vs-dark",
+        "path": "./themes/azure-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Bright Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bright-pink-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Chartreuse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chartreuse-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Discord Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/discord-green-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Electric Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electric-indigo-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Ghost White",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghost-white-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Hot Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hot-pink-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Radical Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/radical-red-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Red Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red-orange-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Spring Bud",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spring-bud-dark-color-theme.json"
+      },
+      {
+        "label": "Tyrone Neon - Veronica",
+        "uiTheme": "vs-dark",
+        "path": "./themes/veronica-dark-color-theme.json"
       }
     ]
   },
